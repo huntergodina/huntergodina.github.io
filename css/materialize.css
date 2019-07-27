@@ -2225,7 +2225,7 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: monospace, monospace;
+  font-family: 'Open Sans', sans-serif;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -2280,7 +2280,7 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
+  font-family: Open-Sans, sans-serif;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -4296,6 +4296,7 @@ nav a {
 nav i,
 nav [class^="mdi-"], nav [class*="mdi-"],
 nav i.material-icons {
+  font-weight: 300;
   display: block;
   font-size: 24px;
   height: 56px;
@@ -4332,6 +4333,7 @@ nav .brand-logo {
   display: inline-block;
   font-size: 2.1rem;
   padding: 0;
+  font-weight: 700;
 }
 
 nav .brand-logo.center {
@@ -4488,7 +4490,7 @@ a {
 
 html {
   line-height: 1.5;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   color: rgba(0, 0, 0, 0.87);
 }
@@ -4512,7 +4514,7 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 400;
+  font-weight: 800;
   line-height: 1.3;
 }
 
