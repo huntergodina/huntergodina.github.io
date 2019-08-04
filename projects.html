@@ -46,23 +46,40 @@
     <div class="col s12 m6">
       <div class="card">
         <div class="card-image waves-effect waves-block waves-light">
-          <a href="github.com" class="btn-floating halfway-fab waves-effect waves-light cyan accent-2"><i class="material-icons">code</i></a>
-          <img class="activator" src="resources/apache-kafka.png">
+          <img class="activator" src="resources/apache-kafka.png" style="width:600px;height:600px;">
         </div>
         <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">Data Ingestion Pipeline Stress Test<i class="material-icons right">more_vert</i></span>
+          <span class="card-title activator grey-text text-darken-4">Data Ingestion Pipeline Stress Test<i class="material-icons right">code</i></span>
         </div>
         <div class="card-reveal">
           <span class="card-title grey-text text-darken-4">Data Ingestion Pipeline Stress Test<i class="material-icons right">close</i></span>
           <p>Developed a tool used across the project44 engineering teams to test the Apache Kafka data ingestion pipeline used for reception
-          of incoming customer data. Generated load and utilized several concepts such as: reservoir sampling for random access of realistic
+          of incoming customer data. This REST API lived in our Integration stack, and allowed users to send a simply formatted GET request and trigger
+          load testing of the pipeline. Generated load and utilized several concepts such as: reservoir sampling for random access of realistic
           information, asynchronous REST calls to external and internal systems' APIs, depth-first-searching of a self-made weighted graph structure
           and continuous integration via deployment through Jenkins, into a Kubernetes pod, in a Docker container.</p>
         </div>
       </div>
     </div>
 
-
+    <div class="col s12 m6">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="resources/project44.jpg" style="width:600px;height:600px;">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Ocean Shipment Mock Data Provider<i class="material-icons right">code</i></span>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Ocean Shipment Mock Data Provider<i class="material-icons right">close</i></span>
+          <p>In order to increase productivity and smoke-testing of the Ocean Shipment managing and tracking services of project44's technologies,
+          I created a tool that could generate realistic, albeit false, data, to allow our polling services to hit a false endpoint and poll false data
+          as opposed to polling real data for testing purposes. This took the form of a simple REST API that, upon being hit with a GET request from
+          our polling services would return data that mocked the exact data we received from external data sources. This made our testing processes for
+          our ocean services entirely in house, and took away our dependency on external services.</p>
+        </div>
+      </div>
+    </div>
   </div>
 
   <footer class="page-footer grey darken-2">
